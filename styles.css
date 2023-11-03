@@ -1,0 +1,133 @@
+.forecast-container{
+    display: flex;
+    margin-right: 10px;
+    justify-content: center;
+    background-color: antiquewhite;
+    background-color:#1f2937;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 25px;
+
+}
+.forecast-day{
+    margin-right: 50px;
+    /* border: 5px solid rebeccapurple; */
+    background-color: #0b131e;
+    width: 290px;
+    text-align: center;
+    height: 170px;  
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+}
+.additional-info{
+    display: flex;
+   margin-top: 20px;
+    justify-content: center;
+    background-color: antiquewhite;
+    background-color: #1f2937;
+    margin-left: 10%;
+    margin-right: 10%;
+   border-radius: 20px;
+}
+
+.row-time{
+    margin-right: 70px;
+    width: 150px;
+    text-align: center;
+    margin-bottom: 20px;
+    height: 100px;
+    background-color: #0b131e;
+    margin-top: 30px;
+    border-radius: 15px;
+    color: white;
+    font-size: 25px;
+}
+
+body{
+    background-color: #0b131e;
+}
+.weathercontainer{
+    height: 150px;
+    background-color:#1f2937;
+    margin-bottom: 20px;
+    color: antiquewhite;
+    margin-right: 10%;
+    margin-left: 10%;
+    display: flex;
+}
+h2{
+    margin-top: 10px;
+    padding: 10px 10px;
+    font-size: 40px;
+    margin-left: 50px;
+}
+
+.content{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 40%;
+    font-size: 17px;
+}
+.first{
+    margin-right: 35px;
+}
+.row{
+    margin-top: 8px;
+}
+img{
+    height: 100px;
+}
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.row span {
+    margin-left: 5px;
+    margin-right: 10px; 
+}
+
+/* Add these styles to your existing styles.css */
+#locationInput {
+    border: 2px solid #1f2937;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+    width: 200px;
+    margin-right: 10px;
+    color: #1f2937; /* Text color for the input */
+    margin-left: 30%;
+    margin-bottom: 30px;
+}
+
+#locationInput::placeholder {
+    color: #6B7280; /* Placeholder text color */
+}
+
+#getWeather {
+    justify-content: center;
+    background-color: #1f2937;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#getWeather:hover {
+    background-color: #6B7280;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
